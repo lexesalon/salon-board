@@ -1,9 +1,7 @@
-import { Redis } from "@upstash/redis";
+import { redis } from "../../../lib/redis";
 import bcrypt from "bcryptjs";
 import { signToken } from "../../../lib/auth";
 import { cookies } from "next/headers";
-
-const redis = Redis.fromEnv();
 
 export async function POST(req) {
   const { username, password } = await req.json();
