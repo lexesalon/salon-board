@@ -1,7 +1,5 @@
-import { Redis } from "@upstash/redis";
+import { redis } from "../../../lib/redis";
 import bcrypt from "bcryptjs";
-
-const redis = Redis.fromEnv();
 
 export async function POST(req) {
   const { secret, users } = await req.json();
