@@ -1,7 +1,5 @@
-import { Redis } from "@upstash/redis";
+import { redis } from "../../../lib/redis";
 import { getSession } from "../../../lib/auth";
-
-const redis = Redis.fromEnv();
 
 export async function GET() {
   const session = await getSession();
