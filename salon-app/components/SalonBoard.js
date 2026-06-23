@@ -96,7 +96,6 @@ export default function SalonBoard({ initialSales, session, onLogout }) {
               <div style={{fontSize:12,color:"#aaa",marginTop:2}}>{dateLabel}</div>
             </div>
             <div style={{display:"flex",flexDirection:"column",alignItems:"flex-end",gap:4}}>
-              <div style={{fontSize:12,color:"#555",fontWeight:500}}>{session.displayName}</div>
               <button onClick={onLogout} style={{fontSize:11,padding:"4px 10px",borderRadius:20,border:"1px solid #EDE8E1",background:"#fff",color:"#888",cursor:"pointer",fontFamily:"'Noto Sans JP',sans-serif"}}>ログアウト</button>
             </div>
           </div>
