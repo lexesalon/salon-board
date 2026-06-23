@@ -22,7 +22,7 @@ function periodLabel(key) {
 }
 function fmt(n){ return "¥"+Number(n).toLocaleString(); }
 
-const MENUS=["カット","カラー","パーマ","トリートメント","セラピー","縮毛矯正","店販"];
+const MENUS=["カット","カラー","パーマ","トリートメント","セラピー","縮毛矯正","シャンプーブロー","ヘアセット","店販"];
 const MENU_COLORS=["#C9A84C","#1A1A2E","#7B9EA6","#B76E6E","#8B7355","#5B7A5B","#A78BBA"];
 const inp={border:"1px solid #EDE8E1",borderRadius:8,padding:"10px 12px",fontSize:14,color:"#1A1A2E",background:"#FAFAF8",width:"100%",fontFamily:"'Noto Sans JP',sans-serif"};
 const lbl={fontSize:11,letterSpacing:"0.08em",color:"#888",textTransform:"uppercase",display:"block",marginBottom:5};
